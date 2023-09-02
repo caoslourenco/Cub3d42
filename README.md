@@ -4,22 +4,37 @@ O cub3D é um projeto da 42 École que envolve a criação de um "raycaster" ins
 
 Não posso fornecer uma solução completa para o projeto aqui, pois isso seria antiético e violaria as regras da 42 École. No entanto, posso fornecer uma visão geral de como abordar o projeto e responder a perguntas específicas que você possa ter.
 
-Aqui está uma abordagem simplificada para começar:
+------------------- ESCOPO DO PROJETO "cub3D" (42 École) -------------------
 
-Entenda o Raycasting: Antes de começar a codar, é essencial entender o conceito de raycasting. Existem muitos tutoriais e recursos online que explicam como o raycasting funciona.
+1. **Entendimento do Raycasting**:
+   - Estudar e compreender o conceito de raycasting.
+   - Recomenda-se consultar tutoriais e recursos online.
 
-Configuração e Leitura de Arquivos: Comece por criar uma estrutura de dados para armazenar as informações do mapa e outras configurações. Em seguida, escreva funções para ler e validar os arquivos de configuração.
+2. **Configuração e Leitura de Arquivos**:
+   - Definir uma estrutura de dados para informações do mapa e configurações.
+   - Desenvolver funções para ler e validar os arquivos de configuração.
 
-Inicialização da Janela: Use a biblioteca mlx (MiniLibX) para criar uma janela e inicializar tudo o que você precisa para a renderização.
+3. **Inicialização da Janela**:
+   - Utilizar a biblioteca mlx (MiniLibX) para criar e configurar uma janela.
 
-Renderização: Implemente o algoritmo de raycasting para renderizar as paredes. Comece com paredes simples e, em seguida, adicione texturas.
+4. **Renderização**:
+   - Implementar o algoritmo de raycasting para visualizar as paredes.
+   - Adicionar texturas às paredes.
 
-Movimento: Adicione a capacidade de mover o jogador pelo mapa usando as teclas do teclado.
+5. **Movimento**:
+   - Habilitar a movimentação do jogador pelo mapa usando entradas do teclado.
 
-Detecção de Colisão: Certifique-se de que o jogador não possa caminhar através das paredes.
+6. **Detecção de Colisão**:
+   - Implementar lógica para prevenir que o jogador atravesse paredes.
 
-Sprites: Depois de ter as paredes renderizadas e o movimento funcionando, você pode adicionar sprites ao jogo.
+7. **Sprites**:
+   - Adicionar e renderizar sprites no jogo após finalizar a renderização de paredes.
 
-Otimização: Uma vez que tudo esteja funcionando, você pode procurar maneiras de otimizar seu código para melhorar o desempenho.
+8. **Otimização**:
+   - Refinar e otimizar o código para melhor performance.
 
-Bônus: Se você terminar todas as partes obrigatórias e ainda tiver tempo, pode considerar adicionar recursos extras, como sombras, mais texturas, etc.
+9. **Bônus** (se desejar e houver tempo):
+   - Introduzir funcionalidades adicionais como sombras, variedade de texturas e outras características avançadas.
+
+------------------------------------------------------------------------
+
